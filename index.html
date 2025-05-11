@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>AlugCar</title>
+
+<link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+    <span class="icon">🚗</span>
+
+    <h1>AlugCar</h1>
+
+</div>
+
+<p>Encontre veículos para alugar perto de você!</p>
+
+<div class="search-bar">
+
+    <input type="text" id="search" placeholder="Buscar modelo, cidade..." />
+
+    <button onclick="filtrarVeiculos()">🔍</button>
+
+</div>
+
+</header>
+
+<main id="veiculos-container">
+
+<!-- Cards de veículos são adicionados aqui pelo JS -->
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+<footer class="rodape" aria-label="Rodapé">
+
+<p class="rodape__texto">© 2023 AlugCar - Todos os direitos reservados</p>
+
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+
+</html>
+
+<!-- Modal de Detalhes -->
+
+<div id="modal" class="modal hidden">
+
+<div class="modal-content">
+
+<span class="close" onclick="fecharModal()">&times;</span>
+
+<h2 id="modal-titulo"></h2>
+
+<p id="modal-descricao"></p>
+
+<div class="modal-fotos" id="modal-fotos"></div>
+
+<p id="modal-contato"></p>
+
+</div>
+
+</div>
