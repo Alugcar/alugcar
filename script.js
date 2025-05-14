@@ -4,7 +4,7 @@ const veiculos = [
 
     modelo: "Toyota Corolla 2022",
 
-    preco: "R$ 150/dia",
+    preco: "R$ 160/dia",
 
     cidade: "São Paulo, SP",
 
