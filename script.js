@@ -28,7 +28,7 @@ const veiculos = [
 
     modelo: "Honda Civic 2022",
 
-    preco: "R$ 150/dia",
+    preco: "R$ 160/dia",
 
     cidade: "Curitiba, PR",
 
